@@ -1,0 +1,41 @@
+<html>
+<body>
+	<form action="" method="post">
+ Book Id: <input type="number" name="bookid" placeholder="enter id of book"> <p id="output"> </p> <br> <br>
+ Book name: <input type="text" name="bookname"> <br> <br>
+ price: <input type="number" name="price"> <br> <br>
+ <button name="addbook" onclick="document.getElementById('output').innerHTML='data added'"> Add a Book</button> <br><br>
+ <p>Show all books here:</p>
+ <table>
+	<tr>
+		<th>BookId</th> 
+		<th>Bookname</th>
+		<th>price</th>
+	</tr>
+
+	
+ </table>
+</form>
+</body>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script>//our scrip will come here 
+
+
+
+$(document).ready(function()
+{
+console.log("no more sins");
+$("#b2").click(function () 
+	{ 
+		//console.log("jquery works");
+		alert("jquery works")
+	});
+	
+});
+
+
+</script>
+
+
+</html>
